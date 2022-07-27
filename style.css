@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+
+body {
+    margin: 0;
+    background-image: url("pattern.jpg"); 
+    background-repeat: no-repeat; 
+    font-family: 'Edu TAS Beginner', cursive;
+    line-height: 20px;
+    font-size: 18px;
+    background-size: cover;
+    height: 100vh;
+}
+
+.card {
+    width: 680px;
+    margin: 30px auto;
+    background-color: #fcfcf8;
+    box-shadow: 0 5px 10px #646461;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-photo {
+    display: block;
+    width: 405;
+    height: 664;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.card-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #7f8568;
+    text-shadow: 0.3px 0.3px 0.3px #5f5d5d;
+}
+
+#myInput {
+    width: 500px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    font-size: 18px;
+    color: #7f8568;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #646461;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+#submit {
+    font-size: 15px;
+    text-shadow: 0.1px 0.1px 0.1px #5f5d5d;
+    color: #5f5d5d;
+    margin-left: 11px;
+    margin-top: 7px;
+    height: 25px;
+    width: 110px;
+    position: absolute;
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: center;
+}
+
+#submit:hover {
+    background: #c2e7a9;
+}
+
+ul li {
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    padding: 8px 8px 8px 40px;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 7px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.close {
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 16px 8px 16px;
+}
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+}
